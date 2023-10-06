@@ -17,7 +17,7 @@ function rellenar(tabla){
 function contarPartidos(tabla){
     var cuenta=0;
     for(var i=2;i<=5;i++){
-        for (var j = 2; j<=5; j++){
+        for (var j = 2; j<=6; j++){
             cuenta += tabla[i][j]
         }
         console.log("El voto total de "+tabla[i][1]+ " = "+cuenta);
